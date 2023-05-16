@@ -33,10 +33,10 @@ MongoClient.connect(url, options, (err, client) => {
         }
       });
     });
-  }
-});
 
-// 서버 실행
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+    // 서버 실행
+    app.listen(port, () => {
+      console.log(`Server is running on port ${port}`);
+    });
+  }
 });
